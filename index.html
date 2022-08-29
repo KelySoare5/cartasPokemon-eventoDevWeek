@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="responsivo.cssss" rel="stylesheet" type="text/css" />
+  
+  <!--FONTE PESQUISA NO GOOGLE FONTS, FONTE OUTFIT/COPIA LINK-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet"> 
+
+  <!-- PAGINA COM IMAGEM DA BOLA -->
+<link rel="shortcut icon" href="imagens/pokebola.png" type="Image/x-icon">
+
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <img class="pokebola" src="imagens/pokebola.png" alt="Pokébola">
+        <h1 class="titulo">MapaDev Week</h1>
+     </header>
+      
+        <main class="pokemon-slider">
+          <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="imagens/seta.png" alt="Seta voltar">
+          </button>
+    <!--                   CARTAO PIKACHU                -->
+          <ul class="list-pokemons">
+            <li class="cartao selecionado fundo-1"> <!-- PARTE DE CIMA DO CARTAO  -->
+              <div class="informacoes">
+                <h2 class="nome">Pikachu</h2>
+                <p class="vida">HP 300</p>
+              </div>
+    
+              <div class="container-imagem"> <!-- PARTE DO MEIO/IMAGEM -->
+                <img class="imagem-pokemon" src="imagens/pikachu.png" alt="Pikachu">
+              </div>
+    
+              <div class="descricao"> <!--   A PARTE DE BAIXO DO CARTAO  -->
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cupiditate? Distinctio quam at autem quod velit animi ratione ab? Animi, aspernatur nam maxime adipisci asperiores quibusdam possimus officiis illum beatae.</p>
+              </div>
+            </li>
+    
+    <!--                   CARTAO CHARIZARD               -->      
+     <li class="cartao  fundo-2">
+              <div class="informacoes">
+                <h2 class="nome">Charizard</h2>
+                <p class="vida">HP 800</p>
+              </div>
+    
+              <div class="container-imagem"> <!-- PARTE DO MEIO/IMAGEM -->
+                <img class="imagem-pokemon" src="imagens/charizard.png" alt="Charizard">
+              </div>
+    
+              <div class="descricao"> <!--   A PARTE DE BAIXO DO CARTAO  -->
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cupiditate? Distinctio quam at autem quod velit animi ratione ab? Animi, aspernatur nam maxime adipisci asperiores quibusdam possimus officiis illum beatae.</p>
+              </div>
+            </li>
+            
+    <!--                   CARTAO MEWTOW               -->      
+     <li class="cartao  fundo-3">
+              <div class="informacoes">
+                <h2 class="nome">Mewtwo</h2>
+                <p class="vida">HP 1200</p>
+              </div>
+    
+    
+              <div class="container-imagem"> <!-- PARTE DO MEIO/IMAGEM -->
+                <img class="imagem-pokemon" src="imagens/mewtwo.png" alt="Mewtwo">
+              </div>
+    
+              <div class="descricao"> <!--   A PARTE DE BAIXO DO CARTAO  -->
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cupiditate? Distinctio quam at autem quod velit animi ratione ab? Animi, aspernatur nam maxime adipisci asperiores quibusdam possimus officiis illum beatae.</p>
+              </div>
+             </li>
+          </ul>
+    
+          <button class="btn-seta" id="btn-avancar">
+            <img src="imagens/seta.png" alt="Seta avançar">
+          </button>
+        </main>
+      <script src="script.js"></script>
+
+</body>
+</html>
